@@ -123,7 +123,7 @@ export const CanvasCommandBar = React.memo((props: CanvasCommandBarProps) => {
             {itemsBound && (
                 <CommandBarCustom
                     componentRef={commandBarRef}
-                    className={'PowerCATCommandBar'}
+                    className={'ProdwareCommandBar'}
                     tabIndex={tabIndex}
                     styles={commandBarStyle}
                     items={commandBarItems.rootItems}

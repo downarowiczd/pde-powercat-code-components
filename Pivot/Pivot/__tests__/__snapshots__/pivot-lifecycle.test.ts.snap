@@ -121,7 +121,7 @@ exports[`Pivot theme 1`] = `
   }
 >
   <div
-    className="PowerCATFluentPivot"
+    className="ProdwareFluentPivot"
     role="toolbar"
   >
     <div

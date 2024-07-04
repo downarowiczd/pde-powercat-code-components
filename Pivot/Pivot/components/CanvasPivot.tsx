@@ -110,7 +110,7 @@ export const CanvasPivot = React.memo((props: PivotProps) => {
     return (
         <ThemeProvider applyTo="none" theme={theme} style={rootStyle}>
             <CustomPivot
-                className="PowerCATFluentPivot"
+                className="ProdwareFluentPivot"
                 componentRef={componentRef}
                 aria-label={ariaLabel}
                 onLinkClick={onLinkClick}

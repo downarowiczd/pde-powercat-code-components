@@ -23,7 +23,7 @@ exports[`SpinButton renders 1`] = `
 exports[`SpinButton theme 1`] = `
 <div
   className=
-      PowerCATSpinButton
+      ProdwareSpinButton
       {
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;

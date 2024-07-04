@@ -308,7 +308,7 @@ export const TagPickerComponent = React.memo((props: TagPickerComponentProps) =>
         selectionAriaLabel: accessibilityLabel,
     } as ICanvasTagPickerProps;
     return (
-        <ThemeProvider theme={theme} applyTo="none" ref={target} className={'PowerCATTagPicker'} style={rootStyle}>
+        <ThemeProvider theme={theme} applyTo="none" ref={target} className={'ProdwareTagPicker'} style={rootStyle}>
             <CanvasTagPicker {...canvasTagPickerProps} />
         </ThemeProvider>
     );

@@ -173,7 +173,7 @@ export const CanvasPeoplePicker = React.memo((props: CanvasPeoplePickerProps) =>
         onChange: onChange,
     } as IPeoplePickerProps;
     return (
-        <ThemeProvider theme={theme} ref={target} className={'PowerCATPeoplePicker'} style={rootStyle}>
+        <ThemeProvider theme={theme} ref={target} className={'ProdwarePeoplePicker'} style={rootStyle}>
             {(() => {
                 switch (peoplePickerType.toLowerCase()) {
                     case 'normal people picker':

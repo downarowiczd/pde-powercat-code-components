@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="PowerCAT" constructor="DonutChart" version="0.0.1" display-name-key="DonutChart" description-key="DonutChart_desc" control-type="virtual" >
+  <control namespace="Prodware" constructor="DonutChart" version="0.0.1" display-name-key="DonutChart" description-key="DonutChart_desc" control-type="virtual" >
     <property name="Title" display-name-key="DonutChart_Title_Display_Key" of-type="SingleLine.Text" usage="input" required="false" />
     <property name="HideLabel" display-name-key="DonutChart_Hidelabel_Display_Key" of-type="TwoOptions" usage="input" required="true" default-value="false"/>
     <property name="HideTooltip" display-name-key="DonutChart_HideTooltip_Display_Key" of-type="TwoOptions" usage="input" default-value="false" required="false" />

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="PowerCAT" constructor="StackedBarChart" version="0.0.1" display-name-key="StackedBarChart_Display_Key" description-key="StackedBarChart_desc" control-type="virtual" >
+  <control namespace="Prodware" constructor="StackedBarChart" version="0.0.1" display-name-key="StackedBarChart_Display_Key" description-key="StackedBarChart_desc" control-type="virtual" >
     <property name="Title" display-name-key="StackedBarChart_Title_Display_Key" of-type="SingleLine.Text" usage="input" required="false" />
     <property name="HideLegend" display-name-key="StackedBarChart_Hidelegend_Display_Key" of-type="TwoOptions" usage="input" required="false" default-value="false"/>
     <property name="BarHeight" display-name-key="StackedBarChart_BarHeight_Display_Key" of-type="Whole.None" usage="input" required="false" default-value="15"/>

@@ -1,27 +1,27 @@
 /* Header Styles */
-.PowerCATFluentDetailsList .ms-DetailsHeader {
+.ProdwareFluentDetailsList .ms-DetailsHeader {
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
-.PowerCATFluentDetailsList .right-align .ms-DetailsHeader-cellTitle {
+.ProdwareFluentDetailsList .right-align .ms-DetailsHeader-cellTitle {
   text-align: right;
   justify-content: flex-end;
 }
 
-.PowerCATFluentDetailsList .center-align .ms-DetailsHeader-cellTitle {
+.ProdwareFluentDetailsList .center-align .ms-DetailsHeader-cellTitle {
   text-align: center;
   justify-content: center;
 }
 
-.PowerCATFluentDetailsList .inline-labeled-cell {
+.ProdwareFluentDetailsList .inline-labeled-cell {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 /* Status Indicator Tag */
-.PowerCATFluentDetailsList .status-tag:after {
+.ProdwareFluentDetailsList .status-tag:after {
   content: "";
   position: absolute;
   top: 8px;
@@ -34,7 +34,7 @@
   background: #5D656E;
 }
 
-.PowerCATFluentDetailsList .status-tag {
+.ProdwareFluentDetailsList .status-tag {
   line-height: 26px;
   position: relative;
   padding: 4px 8px 4px 20px;
@@ -52,7 +52,7 @@
   box-sizing: border-box;
 }
 
-.PowerCATFluentDetailsList .text-tag {
+.ProdwareFluentDetailsList .text-tag {
   line-height: 26px;
   position: relative;
   padding: 4px 8px 4px 8px;
@@ -69,40 +69,40 @@
   box-sizing: border-box;
 }
 
-.PowerCATFluentDetailsList .ms-DetailsHeader-cellTitle {
+.ProdwareFluentDetailsList .ms-DetailsHeader-cellTitle {
   height: 100%;
 }
 
 /* Expand Icon Cell */
-.PowerCATFluentDetailsList .ms-DetailsRow-cell.celltype-expand {
+.ProdwareFluentDetailsList .ms-DetailsRow-cell.celltype-expand {
   padding-bottom: 0px;
   padding-top: 0px;
 }
 
 /* Allow sub text to span cols */
-.PowerCATFluentDetailsList .ms-DetailsRow-cell {
+.ProdwareFluentDetailsList .ms-DetailsRow-cell {
   overflow: visible;
 }
 
-.PowerCATFluentDetailsList .inine-label {
+.ProdwareFluentDetailsList .inine-label {
   margin-right: 4px;
   color: #5D656E;
   vertical-align: top;
   font-weight: 400;
 }
 
-.PowerCATFluentDetailsList .ms-DetailsRow-cell b {
+.ProdwareFluentDetailsList .ms-DetailsRow-cell b {
   font-weight: 600;
 }
 
-.PowerCATFluentDetailsList .sub-text-row-wrapper-break {
+.ProdwareFluentDetailsList .sub-text-row-wrapper-break {
   flex-basis: 100%;
   width: 0px;
   display: block;
 }
 
 /* Cell Image Buttons */
-.PowerCATFluentDetailsList .image-button {
+.ProdwareFluentDetailsList .image-button {
   border-radius: 0px;
   height: 100%;
   border: none;
@@ -112,6 +112,6 @@
 }
 
 
-.PowerCATFluentDetailsList button:disabled.image-button {
+.ProdwareFluentDetailsList button:disabled.image-button {
   background-color: transparent;
 }

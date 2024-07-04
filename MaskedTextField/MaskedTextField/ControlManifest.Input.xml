@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="PowerCAT" constructor="MaskedTextField" version="0.0.1" display-name-key="MaskedTextField" description-key="MaskedTextField_Desc" control-type="virtual">
+  <control namespace="Prodware" constructor="MaskedTextField" version="0.0.1" display-name-key="MaskedTextField" description-key="MaskedTextField_Desc" control-type="virtual">
     <property name="Value" display-name-key="MaskedTextField_Value" of-type="SingleLine.Text" usage="bound" required="true" />
     <property name="Prefix" display-name-key="MaskedTextField_Prefix" of-type="SingleLine.Text" usage="input" required="false" />
     <property name="Suffix" display-name-key="MaskedTextField_Suffix" of-type="SingleLine.Text" usage="input" required="false" />

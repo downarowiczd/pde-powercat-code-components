@@ -319,7 +319,7 @@ Manual Sorting is supported outside of the component to allow for custom connect
    If(Self.EventName="Sort", 
    UpdateContext({
                    ctxSortCol:Self.SortEventColumn,
-                   ctxSortAsc:If(Self.SortEventDirection='PowerCAT.FluentDetailsList.SortEventDirection'.Ascending,true,false)
+                   ctxSortAsc:If(Self.SortEventDirection='Prodware.FluentDetailsList.SortEventDirection'.Ascending,true,false)
     })
    );
    ```
@@ -330,8 +330,8 @@ Manual Sorting is supported outside of the component to allow for custom connect
 
    ```vbscript
    If(ctxSortAsc,
-       'PowerCAT.FluentDetailsList.CurrentSortDirection'.Ascending,
-       'PowerCAT.FluentDetailsList.CurrentSortDirection'.Descending) 
+       'Prodware.FluentDetailsList.CurrentSortDirection'.Ascending,
+       'Prodware.FluentDetailsList.CurrentSortDirection'.Descending) 
    ```
 
 6. Set the input items collection to sort using the context variables set above:

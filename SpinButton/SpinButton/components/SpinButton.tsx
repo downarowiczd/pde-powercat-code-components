@@ -111,7 +111,7 @@ export const SpinButtonComponent = React.memo((props: ISpinButtonComponentProps)
     } as ISpinButtonProps;
 
     return (
-        <ThemeProvider theme={theme} className={'PowerCATSpinButton'}>
+        <ThemeProvider theme={theme} className={'ProdwareSpinButton'}>
             <SpinButton {...spinButtonProps} />
         </ThemeProvider>
     );

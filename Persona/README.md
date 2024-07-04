@@ -53,8 +53,8 @@ Following is an example on how to use the Persona component:
     OptionalText: "Available at 4:00pm"
     HidePersonaDetails: false
     ImageUrl: User().Image
-    PersonaSize: PowerCAT.Persona.PersonaSize.Size100
-    Presence: PowerCAT.Persona.Presence.Online
+    PersonaSize: Prodware.Persona.PersonaSize.Size100
+    Presence: Prodware.Persona.Presence.Online
     
 
 ### Example Theme

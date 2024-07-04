@@ -2,7 +2,7 @@
 
 exports[`Picker renders 1`] = `
 <div
-  className="PowerCATTagPicker"
+  className="ProdwareTagPicker"
   style={
     Object {
       "height": "fit-content",
@@ -140,7 +140,7 @@ exports[`Picker renders 1`] = `
 
 exports[`Picker renders with simple tags 1`] = `
 <div
-  className="PowerCATTagPicker"
+  className="ProdwareTagPicker"
   style={
     Object {
       "height": "fit-content",

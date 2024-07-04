@@ -274,7 +274,7 @@ export const Grid = React.memo((props: GridProps) => {
             theme={theme}
             applyTo="none"
             style={containerSize}
-            className={ClassNames.PowerCATFluentDetailsList}
+            className={ClassNames.ProdwareFluentDetailsList}
         >
             <ScrollablePane scrollbarVisibility={ScrollbarVisibility.auto} scrollContainerFocus={false}>
                 <ShimmeredDetailsList

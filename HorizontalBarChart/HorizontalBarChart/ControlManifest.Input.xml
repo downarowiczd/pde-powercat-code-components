@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="PowerCAT" constructor="HorizontalBarChart" version="0.0.4" display-name-key="HorizontalBarChart_Display_Key" description-key="HorizontalBarChart_desc" control-type="virtual" >
+  <control namespace="Prodware" constructor="HorizontalBarChart" version="0.0.4" display-name-key="HorizontalBarChart_Display_Key" description-key="HorizontalBarChart_desc" control-type="virtual" >
     <property name="Title" display-name-key="HorizontalBarChart_Title_Display_Key" of-type="SingleLine.Text" usage="input" required="false" />
     <property name="HideLabels" display-name-key="HorizontalBarChart_Hidelabels_Display_Key" of-type="TwoOptions" usage="input" required="true" default-value="false"/>
     <property name="HideTooltip" display-name-key="HorizontalBarChart_HideTooltip_Display_Key" of-type="TwoOptions" usage="input" default-value="false" required="false" />

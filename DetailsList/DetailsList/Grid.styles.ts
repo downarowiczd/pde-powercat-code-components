@@ -4,7 +4,7 @@ export function concatClassNames(classNames: (string | undefined)[]): string | u
 }
 
 export const ClassNames = {
-    PowerCATFluentDetailsList: 'PowerCATFluentDetailsList',
+    ProdwareFluentDetailsList: 'ProdwareFluentDetailsList',
     subTextRowBreak: 'sub-text-row-wrapper-break',
     inlineLabel: 'inine-label',
     statusTag: 'status-tag',

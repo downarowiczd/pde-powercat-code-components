@@ -1,4 +1,4 @@
 /* Ensure the overflow button has a transparent background */
-.PowerCATCommandBar .ms-CommandBar-overflowButton {
+.ProdwareCommandBar .ms-CommandBar-overflowButton {
     background-color: transparent;
 }

@@ -81,7 +81,7 @@ export const CanvasContextMenu = React.memo((props: CanvasContextMenuProps) => {
     }, [disabled, items, onClick, onSelected, showChevron]);
 
     return (
-        <ThemeProvider applyTo="none" theme={theme} className={'PowerCATFluentContextMenu'}>
+        <ThemeProvider applyTo="none" theme={theme} className={'ProdwareFluentContextMenu'}>
             <DefaultButton
                 {...buttonProps}
                 styles={getButtonStyles(props, items)}

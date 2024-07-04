@@ -68,7 +68,7 @@ export const CanvasCalendar = React.memo((props: ICalendarProps) => {
     return (
         // Issue : Calendar Control does not have a Disabled prop yet - https://github.com/microsoft/fluentui/issues/19453,
         // Hence custom styling with negative tabIndex are included to support disabling
-        <ThemeProvider className={isDisabled ? 'PowerCATCalendarDisable' : undefined} applyTo="none" theme={theme}>
+        <ThemeProvider className={isDisabled ? 'ProdwareCalendarDisable' : undefined} applyTo="none" theme={theme}>
             <CustomCalendar
                 showGoToToday={showGoToToday}
                 firstDayOfWeek={getWeeksFirstDay(firstDayOfWeek)}

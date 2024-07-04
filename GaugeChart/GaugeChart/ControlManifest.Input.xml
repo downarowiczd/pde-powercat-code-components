@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="PowerCAT" constructor="GaugeChart" version="0.0.1" display-name-key="GaugeChart_Display_Key" description-key="GaugeChart_desc" control-type="virtual" >
+  <control namespace="Prodware" constructor="GaugeChart" version="0.0.1" display-name-key="GaugeChart_Display_Key" description-key="GaugeChart_desc" control-type="virtual" >
     <property name="Title" display-name-key="GaugeChart_Title_Display_Key" of-type="SingleLine.Text" usage="input" required="false" />
     <property name="Sublabel" display-name-key="GaugeChart_Sublabel_Display_Key" of-type="SingleLine.Text" usage="input" required="false" />
     <property name="ChartValue" display-name-key="GaugeChart_Chartvalue_Display_Key" of-type="Whole.None" usage="input" required="false" />
